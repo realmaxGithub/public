@@ -1,0 +1,40 @@
+/**index.wxss**/
+.ut-mod-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ut-mod-main .ut-mod-container.container {
+  width: 100%;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ut-mod-main .ut-mod-container.container .ut-ui-btn {
+  width: 100%;
+  margin: 30rpx;
+  font-size: 28rpx;
+  /* border-radius: 50rpx 50rpx; */
+  background-color: #ffffff;
+}
+.ut-mod-main .ut-mod-container.container .ut-ui-btn.active {
+  background-color: #099EFF;
+  color: #ffffff;
+  border: 0;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

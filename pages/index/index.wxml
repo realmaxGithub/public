@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="ut-mod-main">
+  <view class="ut-mod-container container">
+    <button
+      class="ut-ui-btn btn-read {{active == 'read' ? 'active': ''}}"
+      hover-class= "active"
+      type="default"
+      size="{{primarySize}}"
+      loading="{{loading}}"
+      plain="{{plain}}"
+      disabled="{{disabled}}"
+      bindtap="bindViewReadTap"
+    >
+      查看日志
+    </button>
+     <button
+      class="ut-ui-btn btn-upload {{active == 'upload' ? 'active': ''}}"
+      type="default"
+      hover-class= "active"
+      size="{{primarySize}}"
+      loading="{{loading}}"
+      plain="{{plain}}"
+      disabled="{{disabled}}"
+      bindtap="bindViewUploadTap"
+    >
+      一键上传日志
+    </button>
+  </view>
+  <view class="usermotto">
+  <canvas type="webgl" id="myCanvas"></canvas>
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
